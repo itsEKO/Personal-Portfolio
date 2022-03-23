@@ -1,0 +1,40 @@
+@import "../../global.scss";
+
+.about{
+    background-color: $backgroundColor;
+    color: $altColor2;
+    position: relative;
+
+    #hello{
+        font-size: 4.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #text{
+        padding-left: 2rem;
+    }
+
+    .box{
+        border-radius: 10px;
+        background-color: $altColor1;
+        height: 80%;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        .top-container{
+            padding: 2rem;
+            text-align: center;
+            color: inherit;
+        }
+
+        .content{
+            text-align: left;
+            padding: 2.5rem;
+            color: inherit;
+        }
+    }
+}

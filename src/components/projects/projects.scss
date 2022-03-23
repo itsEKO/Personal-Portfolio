@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.projects{
+    background-color: $altColor1;
+    color: $altColor2;
+    display: grid;
+    justify-content: space-evenly;
+    position: relative;
+
+    #btn-cnt{
+
+        padding: 1.5rem;
+
+        #button{
+            margin-top: 1rem;
+            padding: 0.75rem 2rem;
+            border: solid 1px;
+            border-radius: 10px;
+            background-color: transparent;
+            border-color: $altColor2;
+            color: $altColor2;
+            font-size: large;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    
+        #button:hover{
+            background-color: $altColor2;
+            color: $altColor1;
+        }
+
+    }
+
+    .info-cont{
+        padding-top: 2rem;
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        object-fit: cover;
+        object-position: top left;
+    }
+
+    .image-cont{
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10rem;
+        overflow: hidden;
+        margin-bottom: 24vh;
+    }
+}

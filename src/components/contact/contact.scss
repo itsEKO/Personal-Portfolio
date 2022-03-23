@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.contact{
+    background-color: $backgroundColor;
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        background-color: $backgroundColor;
+        margin: auto;
+        width: 220px;
+        padding: 20rem 0;
+
+        .form-control{
+            margin-top: 1rem;
+            background-color: transparent;
+            color: $altColor1;
+            border: 1px solid;
+            border-radius: 10px;
+            border-color: $altColor3;
+            text-align: center;
+            width: calc(100% - 6px);
+            height: auto;
+        }
+    }
+}
