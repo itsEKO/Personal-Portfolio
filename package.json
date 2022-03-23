@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +41,6 @@
     "sass": "^1.49.7",
     "sass-loader": "^12.4.0",
     "webpack": "^5.68.0"
-  }
+  },
+  "homepage": "https://imEKO.github.io"
 }
