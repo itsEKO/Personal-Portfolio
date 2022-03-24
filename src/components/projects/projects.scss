@@ -7,6 +7,20 @@
     justify-content: space-evenly;
     position: relative;
 
+    @media screen and (max-width: 600px){
+        .image-cont{
+            height: 20vh;
+        }
+
+        #img2{
+            display: none;
+        }
+
+        #img3{
+            display: none;
+        }
+    }
+
     #btn-cnt{
 
         padding: 1.5rem;

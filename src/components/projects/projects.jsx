@@ -12,9 +12,9 @@ export default function projects() {
         </div>
       </div>
       <div className="image-cont">
-        <img src={btcweb} alt="Bitcoin Tracker"></img>
-        <img src={btcweb} alt="Bitcoin Tracker"></img>
-        <img src={btcweb} alt="Bitcoin Tracker"></img>
+        <img id="img1" src={btcweb} alt="Bitcoin Tracker"></img>
+        <img id="img2" src={btcweb} alt="Bitcoin Tracker"></img>
+        <img id="img3" src={btcweb} alt="Bitcoin Tracker"></img>
         </div>
     </div>
   )
